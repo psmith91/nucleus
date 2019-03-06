@@ -1,16 +1,11 @@
 .card-icon{
     position: relative;
-    top: 50%;
+    top: 15%;
     left: 50%;
-    display: inline-block;
-    height: 5em;
-    width: 5em;
-    border-radius: 50%;
+    height: 16em;
+    width: 16em;
     transform: translate(-50%);
-    transition: all .3s ease-in-out;
     background-size: contain;
-    opacity: .5;
-}
-a:hover .card-icon, .swiper-slide-active .card-icon, .full-background .card-icon {
     opacity: 1;
+z-index: 0;
 }
